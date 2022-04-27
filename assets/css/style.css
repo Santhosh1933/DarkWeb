@@ -79,10 +79,10 @@ a:hover {
 
 @keyframes ani {
     25% {
-        box-shadow: 10px -10px 30px #2f2f2f2a, -10px 10px 30px #000000;
+        box-shadow: 10px -10px 30px #fff, -10px 10px 30px #000000;
     }
     50% {
-        box-shadow: -10px 10px 30px #2f2f2f2a, 10px -10px 30px #000000;
+        box-shadow: -10px 10px 30px #fff, 10px -10px 30px #000000;
     }
     75% {
         box-shadow: 10px 10px 30px #2f2f2f2a, -10px -10px 30px #000000;
