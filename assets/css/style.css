@@ -65,7 +65,7 @@ a:hover {
     height: 200px;
     object-fit: cover;
     border: 10px solid #0d0d0e;
-    border-radius: 50%;
+    border-radius: 66% 34% 22% 78% / 52% 59% 41% 48% ;
     box-shadow: 10px 10px 30px #000000, -10px -10px 30px #2f2f2f2a;
     transition: 600ms;
     filter: grayscale(80%);
