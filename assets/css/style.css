@@ -23,7 +23,7 @@ ul {
 }
 
 .a {
-    color: antiquewhite;
+    color: white;
     text-transform: capitalize;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
@@ -422,6 +422,7 @@ h2 {
     .home-content__img {
         width: 130px;
         height: 130px;
+border: 5px solid #0d0d0e;
     }
 }
 
@@ -483,6 +484,7 @@ h2 {
     .about-content__img {
         width: 130px;
         height: 130px;
+border: 5px solid #0d0d0e;
     }
 }
 
@@ -566,6 +568,7 @@ h2 {
     .skill-content__img {
         width: 130px;
         height: 130px;
+border: 5px solid #0d0d0e;
     }
     table,
     th,
@@ -646,6 +649,7 @@ h2 {
     .contact-content__img {
         width: 130px;
         height: 130px;
+border: 5px solid #0d0d0e;
     }
     .contact-content__para {
         width: 80%;
