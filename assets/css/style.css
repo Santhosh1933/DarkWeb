@@ -71,8 +71,9 @@ ul {
     object-fit: cover;
     border: 10px solid #0d0d0e;
     border-radius: 65% 35% 28% 72% / 60% 62% 38% 40%;
-    box-shadow: 10px 10px 30px #000000, -10px -10px 30px #2f2f2f2a;
-    transition: 600ms;
+    box-shadow:  9px -9px 12px #b1b1b1,
+             -9px 9px 12px #ffffff;
+transition: 600ms;
     filter: grayscale(80%);
 }
 
