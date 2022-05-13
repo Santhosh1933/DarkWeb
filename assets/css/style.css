@@ -70,10 +70,11 @@ ul {
     height: 200px;
     object-fit: cover;
     border: 10px solid #0d0d0e;
-    border-radius: 82px;
-background: linear-gradient(225deg, #f0f0f0, #cacaca);
-box-shadow:  -13px 13px 25px #808080,
-             13px -13px 25px #ffffff;
+ -webkit-border-radius: 75px;
+border-radius: 75px;
+background: #0d0d0e;
+-webkit-box-shadow: 8px 8px 23px #050506, -8px -8px 23px #151516;
+box-shadow: 8px 8px 23px #050506, -8px -8px 23px #151516;
 transition: 600ms;
     filter: grayscale(80%);
 }
