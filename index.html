@@ -16,6 +16,7 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- ========== Start welcome ========== -->
     <script>
+AOS.init();
         function fun() {
             var msg = new SpeechSynthesisUtterance();
             msg.text = "welcome to santhosh public portfolio";
@@ -53,7 +54,7 @@ var audio = new Audio('assets/no.mp3');
                 <img src="assets/img/homepage-img.jpeg" alt="" class="home-content__img" onclick="play()">
                 <div class="home-content__para" >
                     <h1>Welcome</h1>
-                    <p>S.Santhosh <br> web developer</p>
+                    <p data-aos="zoom-out-right">S.Santhosh <br> web developer</p>
                 </div>
             </div>
         </div>
@@ -67,7 +68,7 @@ var audio = new Audio('assets/no.mp3');
             <div class="about-content">
                 <img src="assets/img/skillpage-img.png" alt="" class="about-content__img">
                 <div class="about-content__para">
-                    <p data-aos="fade-up">I'm Santhosh S, and I'm a BE computer science engineering student at K S Rangasamy College of Technology. In May of 2021, I began my coading courier, which has changed my life. I am not interested in academics, therefore I chose web
+                    <p>I'm Santhosh S, and I'm a BE computer science engineering student at K S Rangasamy College of Technology. In May of 2021, I began my coading courier, which has changed my life. I am not interested in academics, therefore I chose web
                         development as a forwarder.</p>
                 </div>
             </div>
