@@ -28,6 +28,10 @@
             window.speechSynthesis.speak(msg);
             alert("sorry its currently under maintenance")
         }
+function play(){
+var audio = new Audio('audio.mp3');
+  audio.play();
+}
     </script>
     <!-- ========== End welcome ========== -->
     <!-- ========== Start home page ========== -->
@@ -46,7 +50,7 @@
         <div class="home">
             <div class="home-content" >
 
-                <img src="assets/img/homepage-img.jpeg" alt="" class="home-content__img">
+                <img src="assets/img/homepage-img.jpeg" alt="" class="home-content__img" onclick="play()">
                 <div class="home-content__para" >
                     <h1>Welcome</h1>
                     <p>S.Santhosh <br> web developer</p>
